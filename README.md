@@ -29,8 +29,9 @@ Fundamentally, all Insights are:
 * From the ExoSense and Murano perspective, an Insight is an
   IoT Exchange Service that begins with the word "Insight".
 * The Swagger definition for the Service is found in this repository:
-  insight-template.yaml. Use [swagger.io](https://editor.swagger.io/) to view
-  the incoming and outgoing data format.
+  [insight-template.yaml](./insight-template.yaml). Use
+  [swagger.io](https://editor.swagger.io/) to view the incoming and outgoing
+  data format.
 
 ### Webservers
 
@@ -72,16 +73,17 @@ To enable an Insight within ExoSense:
 
 ## Requirements
 
-1. Customized Swagger file (template is insight-template.yaml). The only
-  sections that should be modified are:
+1. Customized Swagger file (template is
+  [insight-template.yaml](./insight-template.yaml)). The only sections that
+  should be modified are:
     * info
     * host
     * basePath (in many cases the host URL is sufficient and this should be
       left as "/")
 1. URL to that Swagger file (e.g. by using Gist, and copying the URL from the
   "raw" view)
-1. HTTP service with correct endpoints, as defined in the insight-template.yaml
-  file.
+1. HTTP service with correct endpoints, as defined in the
+  [insight-template.yaml](./insight-template.yaml) file.
     * `get /info`
 
       This endpoint is used to get high-level information about an Insight.
@@ -139,7 +141,7 @@ basePath: / # Set this or the path according to your function
 
 #### Public URL
 
-Upload via [GitHub Gist](https://gist.github.com/) 
+Upload via [GitHub Gist](https://gist.github.com/)
 or use [defunkt/gist](https://github.com/defunkt/gist)
 
 #### HTTP Service
