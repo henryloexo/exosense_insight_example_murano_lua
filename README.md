@@ -28,7 +28,7 @@ Short Description: An ExoSense insight template application for quick start deve
 10. Repeat step 2~3 to create and publish another exchange element with following information  
 Element name: A proper name  
 Element type: Service  
-Turn on the switch of enable swagger content and past insight-template.yaml in this repository and make sure the host has been modified  
+Turn on the switch of enable swagger content and paste content in insight-template.yaml into text area of swagger file content and make sure the host has been modified  
 ![](./docimages/create-insight-service-element.png)
 11. View the element 
 12. Click add service in element details page
